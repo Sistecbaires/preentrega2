@@ -20,7 +20,7 @@
         font-size: 5px;
     }
     a{
-        font-size: 15px;
+        font-size: 10px;
         width: 60px;
     }
     header{
@@ -57,7 +57,7 @@
         width: 108px;
     }
     a{
-        font-size: 20px;
+        font-size: 15px;
         width: 108px;
     }
     header{
@@ -83,8 +83,8 @@
 @media only screen and ( min-width:992px ){
    
     .img_portada{
-        width: 240px;
-        height: 240px;
+        width: 200px;
+        height: 200px;
     }
     li{
         font-size: 25px;
@@ -94,7 +94,7 @@
         font-size: 30px;
     }
     a{
-        font-size: 25px;
+        font-size: 20px;
         width: 216px;
     }
     header{
@@ -183,7 +183,7 @@ main{
     display: flex;
     flex-direction: column;
     background-color: rgb(51,51,51);
-    height:35%;
+    height:100%;
     width: 100%;
     
 }
@@ -192,10 +192,10 @@ main{
     display: flex;
     flex-direction: row;
     background-color:rgb(182, 180, 180);
-    height: 50%;
+    height: 100%;
     width: 100%;
-    align-items:first baseline;
-    justify-content: space-evenly;
+    align-items:center;
+    justify-content: space-around;
 }
 
 .portada2{
@@ -204,7 +204,7 @@ main{
     background-color:rgb(182, 180, 180);
     height: 95%;
     width: 100%;
-    align-items: first baseline;
+    align-items: center;
     justify-content: space-around;
 }
 
@@ -223,14 +223,29 @@ main{
 #parrafo1{
     font-size: 14px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 50%;
+    width: 70%;
 }
 
 
 #parrafo2{
     font-size: 14px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 50%;
+    width: 70%;
+}
+#parrafo3{
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 70%;
+}
+#parrafo4{
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 70%;
+}
+#parrafo5{
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 70%;
 }
 
 .site-footer {
