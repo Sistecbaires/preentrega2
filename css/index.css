@@ -177,7 +177,7 @@ h3{
 
 main{
     height: 800px;
-    background-color: rgb(190, 190, 190);
+    background-color: antiquewhite;
 }
 .padre{
     display: flex;
@@ -185,15 +185,14 @@ main{
     background-color: rgb(51,51,51);
     height:100%;
     width: 100%;
-    
 }
 
 .portada{
     display: flex;
     flex-direction: row;
     background-color:rgb(182, 180, 180);
-    height: 100%;
-    width: 100%;
+    height:20%;
+    width:100%;
     align-items:center;
     justify-content: space-around;
 }
@@ -206,6 +205,7 @@ main{
     width: 100%;
     align-items: center;
     justify-content: space-around;
+    text-align: center;
 }
 
 
@@ -223,26 +223,12 @@ main{
 #parrafo1{
     font-size: 14px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 70%;
+    width:100%;
+    text-align: center;
 }
 
 
 #parrafo2{
-    font-size: 14px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 70%;
-}
-#parrafo3{
-    font-size: 14px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 70%;
-}
-#parrafo4{
-    font-size: 14px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 70%;
-}
-#parrafo5{
     font-size: 14px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 70%;
@@ -286,8 +272,9 @@ main{
 #texto_consul{
         font-size: 25px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        width: 80%;
+        width: 100%;
 }
+
 
 .boton_carta{
     width: 20%;
@@ -302,7 +289,7 @@ main{
     display: flex;
     flex-direction: column;
     background-color: rgb(51,51,51);
-    height:35%;
+    height:100%;
     width: 100%;
     
 }
@@ -326,5 +313,28 @@ main{
     color: rgba(3, 3, 3, 0.918);
     font-size: 20px;
     text-decoration:none ;
+    text-align: center;
+}
+
+.carta{
+    display: flex;
+    flex-direction: column;
+    height:50%;
+    width:100%;
+    justify-content: space-around;
+}
+
+.carta__alinejust{
+    text-align: center;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
+
+
+.carta__alinecenter{
+    text-align: center;
+    font-size: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 }
