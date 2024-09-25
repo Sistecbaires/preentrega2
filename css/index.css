@@ -186,6 +186,24 @@ main{
     height:100%;
     width: 100%;
 }
+.padre3{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(51,51,51);
+    height:100%;
+    width: 100%;
+    
+}
+
+.portada3{
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(182, 180, 180);
+    height: 95%;
+    width: 100%;
+    align-items:center;
+}
+
 
 .portada{
     display: flex;
@@ -200,7 +218,7 @@ main{
 .portada2{
     display: flex;
     flex-direction: column;
-    background-color:rgb(182, 180, 180);
+    background-color:antiquewhite;
     height: 95%;
     width: 100%;
     align-items: center;
@@ -208,6 +226,15 @@ main{
     text-align: center;
 }
 
+.portada3{
+    display: flex;
+    flex-direction: column;
+    background-color:antiquewhite;
+    height: 95%;
+    width: 100%;
+    align-items:center;
+    justify-content: space-evenly;
+}
 
 .img_logo{
     width: 60px;
@@ -254,21 +281,10 @@ main{
     display:flex;
     flex-direction: column;
     height: 15%;
-    width: 40%;
+    width: 25%;
+    justify-content:center;
     
 }
-
-.boton{
-    width: 20%;
-    height: 30px;
-    background-color: rgb(58, 128, 219);
-    color:white;
-    font-size:14px;
-    font-family: 'Courier New', Courier, monospace;
-    border-radius: 50px;
-
-}
-
 #texto_consul{
         font-size: 25px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -285,23 +301,9 @@ main{
     border-radius: 50px;
 }
 
-.padre3{
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(51,51,51);
-    height:100%;
-    width: 100%;
-    
-}
 
-.portada3{
-    display: flex;
-    flex-direction: column;
-    background-color:rgb(182, 180, 180);
-    height: 95%;
-    width: 100%;
-    align-items:center;
-}
+
+
 
 #h1sobremi{
     color: rgba(3, 3, 3, 0.918);
