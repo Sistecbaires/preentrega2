@@ -127,7 +127,6 @@ header{
 #autora{
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    padding: 0px;
 }
 
 h1{
@@ -170,6 +169,7 @@ h1{
     text-align: center;
 }
 
+
 h3{
     color: black;
     font-size: 20px;
@@ -182,14 +182,14 @@ main{
 .padre{
     display: flex;
     flex-direction: column;
-    background-color: rgb(51,51,51);
-    height:100%;
+    background-color: rgb(182, 180, 180);
+    height:60%;
     width: 100%;
 }
 .padre3{
     display: flex;
     flex-direction: column;
-    background-color: rgb(51,51,51);
+    background-color: rgb(182, 180, 180);
     height:100%;
     width: 100%;
     
@@ -199,8 +199,6 @@ main{
     display: flex;
     flex-direction: column;
     background-color:rgb(182, 180, 180);
-    height: 95%;
-    width: 100%;
     align-items:center;
 }
 
@@ -209,10 +207,10 @@ main{
     display: flex;
     flex-direction: row;
     background-color:rgb(182, 180, 180);
-    height:20%;
+    height:100%;
     width:100%;
     align-items:center;
-    justify-content: space-around;
+    justify-content:space-around;
 }
 
 .portada2{
@@ -230,7 +228,7 @@ main{
     display: flex;
     flex-direction: column;
     background-color:antiquewhite;
-    height: 95%;
+    height: 100%;
     width: 100%;
     align-items:center;
     justify-content: space-evenly;
@@ -242,15 +240,15 @@ main{
 }
 
 .img_pisico{
-    width: 70%;
-    height: 70%;
+    width: 100%;
+    height: 100%;
 }
 
 
 #parrafo1{
     font-size: 14px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width:100%;
+    width:60%;
     text-align: center;
 }
 
@@ -266,7 +264,6 @@ main{
     border-top: 1px solid #0c0b0b;
     color: #fff;
     font-size: 12px;
-    font-size: 1.2rem;
     padding: 24px 34px;
     text-align: center ;
     letter-spacing: 2px;
@@ -302,14 +299,11 @@ main{
 }
 
 
-
-
-
 #h1sobremi{
     color: rgba(3, 3, 3, 0.918);
     font-size: 40px;
     text-decoration:none ;
-    text-align: left;
+    text-align: center;
 }
 #h2sobremi{
     color: rgba(3, 3, 3, 0.918);
